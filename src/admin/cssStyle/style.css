@@ -1,0 +1,451 @@
+/* login----------------- */
+.login-banner{
+    background-color: rgb(122, 140, 221);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-div{
+    width: 70%;
+    height: 80vh;
+    background-color: white;
+    border-radius: 40px;
+}
+.login-div input{
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.login-div .btn{
+    width: 300px;
+    border-radius: 20px;
+    font-weight: 400 ;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: rgb(49, 49, 49);
+    border: 1px solid rgb(44, 44, 44);
+}
+.login-div .btn:hover{
+    background-color: rgb(122, 140, 221);
+    color: white;
+}
+.login-div a{
+    font-weight: 400;
+    margin-left: 10px;
+    
+}
+.login-div p{
+    margin-left:70px ;
+}
+.login-div .imgBg{
+    background-color:whitesmoke;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin: 130px 0px 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* register------------------- */
+.registration_banner{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(98, 98, 189);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registration_div{
+    width: 55%;
+    height: 75vh;
+    background-color: white;
+    border-radius: 30px;
+}
+.registration_div button{
+    font-weight: 400;
+    font-size: 1.2rem;
+   background-color: transparent;
+   color: black;
+   border: 1px solid rgb(65, 62, 62);
+}
+.registration_div button:hover{
+  
+    background-color: rgb(98, 98, 189);
+}
+.registration_div a{
+    font-weight: 500;
+    color: rgb(98, 98, 189);
+}
+/* forgot password------------------------- */
+.forgotPwd_banner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forgotPwd_div{
+    width: 33%;
+   height: 80vh;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 5px 0.5px rgb(151, 151, 192);
+}
+.forgotPwd_div h1{
+    color: rgb(71, 69, 69)
+}
+/*  student----------------- */
+.student_bg{
+    background-color: rgb(248, 245, 241);
+    padding:50px;
+    box-shadow: 1px 1px 1px 1px rgb(187, 185, 185);
+    border: 5px solid gray;
+    border-radius: 20px;
+}
+/*  teacher----------------- */
+.teacher{
+    height: 88vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                    url("https://th.bing.com/th/id/R097e329b5450039277a81286102c3ea0?rik=G%2fgSgJe2lJkILQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2ff0VfAbM.jpg&ehk=cHd%2fLG3UlRHFtRGuPb%2bxw1oMSL6fnHiBl7Jn5l39W0I%3d&risl=&pid=ImgRaw");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
+.teacher .row{
+    position: absolute;
+    margin-top: 150px;
+}
+.teacher .add_teacher{
+    width: 250px;
+    height: 150px;
+    margin-left: 100px;
+    border-radius: 10px;
+   
+    border: 5px solid hsl(51, 84%, 52%);
+    background-color: white
+}
+.teacher .add_teacher .link{
+    text-decoration: none;
+    color: black;
+}
+.teacher .add_teacher i{
+    font-size: 1.5rem;
+    margin-left:90px;
+    margin-top: 20px;
+}
+.teacher_bg{
+    background-color: rgb(248, 245, 241);
+    padding:30px;
+    box-shadow: 1px 1px 1px 1px rgb(187, 185, 185);
+    border: 5px solid gray;
+    border-radius: 20px;
+}
+/* navbar ------------------- */
+/* .navbar{
+    background-color: rgba(50, 117, 243, 0.877);
+     height: 80px;
+}
+.navbar-brand{
+    color: white;
+    font-size: 2rem;
+    margin-right:500px ;
+    font-weight: 600;
+}
+.nav-item{
+    font-size: 1rem;
+    padding: 0 10px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+} */
+
+/* dashboard--------------------------- */
+/* .dashboard{
+    height: 88vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+                    url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+}
+.dashboard .row1{
+    margin-top: 70px;
+    position: absolute;
+}
+.dashboard .total_student{
+    width: 250px;
+    height: 140px;
+    background-color: white;
+     margin-left: 100px;
+     border-radius: 10px; 
+}
+.dashboard .span1,.span2{
+    font-size: 1.5rem;
+}
+.dashboard .span2{
+    margin-left: 150px;
+}
+.dashboard .total_teacher{
+    width: 250px;
+    height: 140px;
+    background-color: white;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.dashboard .total_course{
+    width: 250px;
+    height: 140px;
+    background-color: white;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.dashboard .row2{
+    margin-top: 250px;
+    position: absolute;
+}
+.dashboard .student_fee{
+    width: 250px;
+    height: 140px;
+    background-color: white;
+     margin-left: 100px;
+     border-radius: 10px; 
+} */
+/* .dashboard .teacher_salary{
+    width: 250px;
+    height: 140px;
+    background-color: white;
+     margin-left: 100px;
+     border-radius: 10px; 
+} */
+.slider img{
+    opacity: 0.8;
+}
+.feature_course{
+    background-color: whitesmoke;
+    padding:70px 0;
+}
+.feature_course img{
+    width: 50%;
+    height: 130px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.feature_course a{
+   margin-left: 50px;
+    color: red;
+    font-weight: 600;
+}
+.feature_course .card{
+    background-color: whitesmoke;
+    border: none;
+}
+
+.feature_course .card:hover{
+ background-color: white;
+ transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+/* .popular_course .card:hover{
+    opacity: 0.7;
+} */
+.popular_course .card img:hover{
+    transform: scale(0.9);
+}
+.home  img{
+    height: 80vh;
+    width: 100%; 
+}
+.home .col2 {
+    position: relative;
+    background-image: url("https://wallpaperaccess.com/full/1943208.jpg");
+}
+.home .col2 h2{
+    position: absolute;
+    margin-top: 50px;
+    left: 180px;
+    color: #fff;
+}
+.home .col2 .circle1{
+    height: 70px;
+    width: 70px;
+    border: 1px solid white; 
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.circle1 i{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 2rem;
+    color: white;
+}
+.home .col2 .circle2{
+    height: 70px;
+    width: 70px;
+    border: 1px solid white; 
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.circle2 i{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 2rem;
+    color: white;
+}
+.home .col2 .circle3{
+    height: 70px;
+    width: 70px;
+    border: 1px solid white; 
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.circle3 i{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 2rem;
+    color: white;
+}
+.home .content1{
+    margin-top: 100px;
+    margin-left:150px ;
+    color: #fff;
+}
+.home .content1 p{
+    font-size: 14px;
+}
+.home .content2{
+    margin-top: 60px;
+    margin-left:150px ;
+    color: #fff;
+}
+.home .content2 p{
+    font-size: 14px;
+}
+.home .content3{
+    margin-top: 60px;
+    margin-left:150px ;
+    color: #fff;
+}
+.home .content3 p{
+    font-size: 14px;
+}
+.homeBg{
+    padding: 70px 0;
+    color: white;
+    text-align: center;  
+}
+
+.homeBg img{
+    border-radius: 50%;
+    width: 80px;
+}
+
+
+.popular_course{
+    background-color: whitesmoke;
+    padding:70px 0;
+}
+.footer-bg{ background-color: black;}
+.footer{ padding: 50px 0;}
+.footer li:hover{ color: rgb(250, 71, 71);}
+.footer h4{font-size: 20px;}
+.footer h6{font-size: 15px;}
+.footer p{font-size: 14px;}
+.footer ul li{font-size: 14px;}
+
+.stdRegister .col1{
+    background-color: #dc143c;
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+.stdRegister h1{
+    position:absolute;
+    margin-top: 120px;
+    margin-left: 160px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 80px;
+}
+.stdRegister .col2{
+    background-image: url("https://college.mayo.edu/media/mccms/content-assets/academics/biomedical-research-training/phd-program/admitted-students/mcgsbs-admitted-students-3773925-0014-content.jpg");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    position: relative;
+    opacity: 0.8;
+}
+.stdRegister .col2 .mt{
+    position: absolute;
+    margin-top: 50px;
+    padding: 50px;
+    margin-left: 200px;
+    border-radius: 5px;
+}
+.stdRegister .col2 input{
+    width: 300px;
+    height:50px ;
+}
+.stdRegister .col2 select{
+    width: 300px;
+    height:50px ;
+}
+.stdRegister .col2 button{
+    border: none;
+    padding: 10px 30px;
+    background-color:#dc143c;
+    color: white;
+}
+@media screen and (max-width: 600px) {
+    .stdRegister h1{
+        position:absolute;
+        margin-top: 120px;
+        margin-left: 130px;
+        font-size: 38px;
+        text-align: center;
+        line-height: 80px;
+    }
+    .stdRegister .col2 .mt{
+        position: absolute;
+        margin-top: 50px;
+        padding: 50px;
+        margin-left: 60px;
+        border-radius: 5px;
+        width: 70%;
+    }
+    .stdRegister .col2 input{
+        width: 220px;
+        height:50px ;
+    }
+    .stdRegister .col2 select{
+        width: 220px;
+        height:50px ;
+    }
+    .stdRegister .col2 button{
+        border: none;
+        padding: 10px 30px;
+        background-color:#dc143c;
+        color: white;
+    }
+}
+
+
+
+
+  
+  
+
+
